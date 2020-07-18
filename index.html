@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan Naming System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Learn More About Africa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="landing-page">
+        <div class="calculator">
+            <h1>Would you like to know your Name in Akan?</h1>
+            <div class="form">
+                <form>
+                    <label for="date">Enter Date of Birth:</label>
+                    <input type="text" name="date" id="date"><br><br>
+                    <label for="year">Enter Year of Birth:</label>
+                    <input type="text" name="year" id="year"><br><br>
+                    <label for="month">Enter Birth Month:</label>
+                    <input type="text" name="month" id="month"><br><br>
+                    <select id="gender">
+                        <option>male</option>
+                        <option>female</option>
+                    </select><br><br>
+                    <a href="#output"><button  type="submit" onclick="nameCalculator()">Submit</button></a>
+                </form>
+            </div>
+            <div id="kk">
+                <p id="finaloutput"></p>
+            </div>
+        </div>    
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
