@@ -32,5 +32,9 @@ button:hover{
 }
 .akan{
     padding: 50px;
-    
+
+}
+.img-fluid{
+    height: 400px;
+    width: 600px;
 }
