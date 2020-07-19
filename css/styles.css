@@ -34,7 +34,24 @@ button:hover{
     padding: 50px;
 
 }
-.img-fluid{
+#img2{ 
+    height: 400px;
+    width: 500px;
+}
+#details{
+    padding: 50px;
+}
+/* .img-fluid{
     height: 400px;
     width: 600px;
+}
+
+#images{
+    display: flex;
+} */
+@media only screen and(max-width:600px){
+    #img2{
+        width: 100%;
+        height: auto;
+    }
 }
