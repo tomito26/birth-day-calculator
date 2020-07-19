@@ -34,10 +34,10 @@ button:hover{
     padding: 50px;
 
 }
-#img2{ 
+/* #img2{ 
     height: 400px;
     width: 500px;
-}
+} */
 #details{
     padding: 50px;
 }
@@ -49,6 +49,9 @@ button:hover{
 #images{
     display: flex;
 } */
+#about{
+    text-align: center;
+}
  .footer{
     border-top:  1px solid black;
 }
@@ -74,6 +77,9 @@ button:hover{
 }
 #link{
     color: #0e76a8;
+}
+#link:hover{
+    cursor: pointer;
 }
 #insta{
     color: #E1306C;
