@@ -14,8 +14,11 @@ function nameCalculator(){
     if (gender == 'male'){
         alert('You were born on '+ day[output] +'  and your akan name is ' + maleNames[output])
     } 
-    else{
+    else if (gender =='female'){
         alert('You were born on '+ day[output] +'  and your akan name is ' + femaleNames[output])
+    }
+    else{
+        alert('Wrong input')
     }
 
      
