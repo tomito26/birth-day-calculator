@@ -49,6 +49,51 @@ button:hover{
 #images{
     display: flex;
 } */
+ .footer{
+    border-top:  1px solid black;
+}
+
+
+#contacts{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#social{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    padding: 35px;
+}
+#face{
+    color: blue;
+}
+#face:hover{
+    cursor: pointer;
+    
+}
+#link{
+    color: #0e76a8;
+}
+#insta{
+    color: #E1306C;
+}
+#insta:hover{
+    cursor: pointer;
+}
+#twit{
+    color: cadetblue;
+}
+#twit:hover{
+    cursor: pointer;
+}
+#interest{
+    color: #BD081C;
+}
+#interest:hover{
+    cursor: pointer;
+}
+
 @media only screen and(max-width:600px){
     #img2{
         width: 100%;
