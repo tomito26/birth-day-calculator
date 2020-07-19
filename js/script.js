@@ -12,10 +12,10 @@ function nameCalculator(){
     let maleNames = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
     let femaleNames = ['Akosua','Adwoa',' Abenaa','Akua','Yaa','Afua','Ama']
     if (gender == 'male'){
-        document.write('You were born on '+ day[output] +'  and your akan name is ' + maleNames[output])
+        alert('You were born on '+ day[output] +'  and your akan name is ' + maleNames[output])
     } 
     else{
-        alert (femaleNames[output])
+        alert('You were born on '+ day[output] +'  and your akan name is ' + femaleNames[output])
     }
 
      

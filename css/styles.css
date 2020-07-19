@@ -9,9 +9,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }
 .calculator>h1{
     font-size: 30px !important;
     margin-bottom: 50px;
+    
 }
