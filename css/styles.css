@@ -17,3 +17,16 @@
     margin-bottom: 50px;
     
 }
+button{
+    border-radius: 10px;
+    border: none;
+}
+#submit{
+    padding: 5px;
+}
+button:hover{
+    background-color: blue;
+}
+#submit:hover{
+    color: white;
+}
