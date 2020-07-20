@@ -4,11 +4,11 @@ This website is about  finding out the day an individual was born and return it 
 
 ## How to access it
 It can be accessed by cloning the project from github.
-You first  go to github and copy the [repository](https://github.com/tomito26/birth-day-calculator.git) and follow the steps below
+You first  go to github and copy the [repository](https://github.com/tomito26/birth-day-calculator.git) and follow the steps below on your terminal
 ```
 $  git clone<repo-link>
 $  cd directory
-$   code .
+$  code .
 ```
 ## How To Contribute
 You can contribute by forking the project  and following the above steps to clone it
